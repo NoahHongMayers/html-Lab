@@ -1,0 +1,30 @@
+.m {
+    color: red;
+    font-size: 50px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h1:hover {
+    color: purple;
+
+    .m {
+        color: purple;
+    }
+}
+
+body {
+    background-image: url("chef.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.transparent ul {
+    opacity: 0.8;
+    border: 2px solid orange;
+    display: inline-block;
+}
