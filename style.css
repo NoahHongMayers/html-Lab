@@ -1,3 +1,7 @@
+@author Noah Hong Mayers
+@date 1 September 2026
+@brief menu html web Page
+
 .m {
     color: red;
     font-size: 50px;
@@ -19,12 +23,13 @@ h1:hover {
 
 body {
     background-image: url("chef.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
+
 
 .transparent ul {
     opacity: 0.8;
     border: 2px solid orange;
-    display: inline-block;
+    width : fit-content
 }
